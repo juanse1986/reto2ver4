@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/texto1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Productos de Belleza Infinity" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ofrecemos los mejores productos para su cuidado personal" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3166169437-3163809759" />
+
+            <Button
+                android:id="@+id/boton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bienvenidos" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imvproducto4"
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/tinte" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvwNombreProducto4"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="tinte" />
+
+                <TextView
+                    android:id="@+id/tvwPrecioProducto4"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="$7.000" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btncomprar4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Añadir"
+                tools:ignore="DuplicateIds" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imvproducto3"
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/shampoocebolla" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvwNombreProducto3"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="shampoo cebolla" />
+
+                <TextView
+                    android:id="@+id/tvwPrecioProducto3"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="$14.000" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btncomprar3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Añadir"
+                tools:ignore="DuplicateIds" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imvproducto2"
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/keratina" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvwNombreProducto2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ketarina" />
+
+                <TextView
+                    android:id="@+id/tvwPrecioProducto2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="$13.000" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btncomprar2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Añadir"
+                tools:ignore="DuplicateIds" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imvproducto1"
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/ceramoldeadora" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvwNombreProducto1"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cera Moldeadora" />
+
+                <TextView
+                    android:id="@+id/tvwPrecioProducto1"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="$4.800" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btncomprar1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Añadir" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imvproducto5"
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/tratamientoequino"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvwNombreProducto5"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="tratamiento equino" />
+
+                <TextView
+                    android:id="@+id/tvwPrecioProducto5"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="$10.600" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btncomprar5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Añadir"
+                tools:ignore="DuplicateIds" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
